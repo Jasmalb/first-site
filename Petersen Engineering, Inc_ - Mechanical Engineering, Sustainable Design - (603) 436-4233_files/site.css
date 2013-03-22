@@ -1,0 +1,322 @@
+.foo {
+	font-size: 3em;
+}
+html {
+	font: 94%/1.7em Cambria, Georgia, Times, "Times New Roman", serif; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+body {
+	margin: 0px; padding: 0px; border-top-color: rgb(140, 222, 75); border-top-width: 5px; border-top-style: solid; background-color: rgb(220, 224, 191);
+}
+.frame {
+	margin: 0px auto; overflow: hidden; clear: both;
+}
+.clear {
+	margin: 0px; padding: 0px; line-height: 0; clear: both; font-size: 0%;
+}
+#header {
+	border-bottom-color: rgb(0, 0, 0);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	background-color: rgb(102,105,69);
+}
+#header .frame {
+	width: 960px;
+}
+img#logo {
+	margin: 0px; padding: 10px 20px; border: currentColor; float: left; display: block;
+}
+#major_navigation {
+	overflow: hidden; margin-top: 1.8em; float: right;
+}
+#major_navigation ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#major_navigation li {
+	margin: 0px; padding: 0px 0px 0px 1px; float: left; display: block;
+}
+#major_navigation li a {
+	padding: 0.4em 0.8em; color: rgb(255, 255, 255); letter-spacing: 0.1em; font-family: Calibri, "Trebuchet MS", sans-serif; text-decoration: none; display: block; background-color: rgb(72, 85, 102);
+}
+#major_navigation li a:hover {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(41, 50, 61);
+}
+#major_navigation li a.active {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(0, 0, 0);
+}
+#stage {
+	background: url("../images/template/stage.jpg") no-repeat top rgb(135, 138, 90); height: 230px; border-bottom-color: rgb(71, 76, 2); border-bottom-width: 2px; border-bottom-style: solid;
+}
+#stage p#primary_content {
+	display: none;
+}
+#stage a#primary_link {
+	margin: 0px auto; width: 960px; height: 230px; display: block;
+}
+#intro {
+	margin: 0px auto; width: 960px; clear: both; background-color: rgb(0, 0, 0);
+}
+#intro p {
+	margin: 0px; padding: 5px 20px; color: rgb(255, 255, 255); font-size: 0.9em;
+}
+#torso {
+	margin: 0px auto; width: 960px; padding-bottom: 10px; clear: both; border-top-color: rgb(187, 187, 187); border-bottom-color: rgb(187, 187, 187); border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+#torso .frame {
+	padding: 20px;
+}
+#footer {
+	margin: 20px auto; width: 960px; clear: both; background-color: rgb(192, 200, 169);
+}
+#footer .panel {
+	margin: 20px; width: 280px; line-height: 1.3; font-size: 0.94em; float: left;
+}
+#footer .panel .copyright {
+	color: rgb(169, 44, 34); font-size: 0.94em; font-style: italic;
+}
+#footer .panel h3 {
+	margin: 0px; padding: 0px; color: rgb(87, 110, 74);
+}
+#footer .panel ul {
+	list-style: none; padding-left: 0px; margin-left: 0px;
+}
+#footer .panel ul li {
+	padding-left: 0px; margin-left: 0px;
+}
+#footer .projects.panel li span.town {
+	color: rgb(102, 102, 102); font-size: 0.94em; font-style: italic;
+}
+h1 {
+	font-family: Calibri, "Trebuchet MS", sans-serif; font-weight: normal;
+}
+h2 {
+	font-family: Calibri, "Trebuchet MS", sans-serif; font-weight: normal;
+}
+h3 {
+	font-family: Calibri, "Trebuchet MS", sans-serif; font-weight: normal;
+}
+h1 {
+	margin: 0px; padding: 0px; color: rgb(169, 44, 34); line-height: 1; font-size: 2.4em;
+}
+h2 {
+	margin: 1.5em 0px 0.2em; padding: 0px 0px 0.3em; color: rgb(0, 0, 0); line-height: 1; font-size: 1.6em; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+h3 {
+	margin: 2em 0px 0.2em; padding: 0px; color: rgb(51, 51, 51); line-height: 1; font-size: 1.2em; font-weight: bold;
+}
+a {
+	color: rgb(72, 85, 102); text-decoration: underline;
+}
+a:hover {
+	color: rgb(72, 85, 102); text-decoration: none;
+}
+strong {
+	
+}
+p.related {
+	margin: 2em 0px; color: rgb(135, 138, 90); font-size: 1.1em; font-style: italic;
+}
+img {
+	border: currentColor; -ms-interpolation-mode: bicubic;
+}
+span.amp {
+	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif; font-size: 110%; font-style: italic;
+}
+#primary-content {
+	width: 600px; float: left;
+}
+#secondary-content {
+	width: 280px; padding-left: 20px; float: right;
+}
+#secondary-content h3 {
+	margin-top: 3em;
+}
+#secondary-content .first {
+	padding-top: 0px; margin-top: 0px;
+}
+#secondary-content ul.toc {
+	list-style: none; padding-left: 0px; margin-left: 0px;
+}
+#secondary-content ul.toc li {
+	list-style: none; padding: 0.5em 0px; margin-left: 0px; border-bottom-color: rgb(220, 224, 191); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#secondary-content ul.toc li a {
+	text-decoration: none;
+}
+#secondary-content ul.toc li a:hover {
+	text-decoration: underline;
+}
+img.icon {
+	margin: 0.5em 1em 0.5em 0px; float: left; display: block;
+}
+img.alt.icon {
+	margin-right: 0px; margin-left: 1em; float: right;
+}
+img.inline {
+	margin: 0.5em auto; border: 2px solid rgb(51, 51, 51); display: block;
+}
+img.action {
+	margin: 0.5em 0px; display: block;
+}
+#home #torso .frame {
+	padding-top: 2em;
+}
+#home .feature {
+	margin: 0px; padding: 0px; float: left;
+}
+#home #feature-services {
+	background: url("../images/features/feature_border_right.gif") repeat-y right top rgb(238, 238, 238); border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(204, 204, 204) currentColor rgb(204, 204, 204) rgb(204, 204, 204); padding: 20px; width: 239px; margin-top: 2em;
+}
+#home #feature-experience {
+	padding: 20px;
+	border: 2px solid rgb(135, 138, 90);
+	width: 316px;
+	background-color: rgb(204,204,153);
+}
+#home #feature-experience p {
+	font-size: 1.1em;
+}
+#home #feature-about {
+	background: url("../images/features/feature_border_left.gif") repeat-y left top rgb(238, 238, 238);
+	border-width: 1px 1px 1px medium;
+	border-style: solid solid solid none;
+	border-color: rgb(135,138,90);
+	padding: 20px;
+	width: 239px;
+	margin-top: 2em;
+}
+#home .feature h3 {
+	text-align: center; line-height: 1; padding-top: 0px; font-size: 1.8em; margin-top: 0px;
+}
+#home .feature h3 a {
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+#home .feature p.action {
+	text-align: center;
+}
+#secondary-content .projects {
+	background: url("../images/textures/dark_grey_bark.jpg") repeat-y; padding: 20px; border: 10px solid rgb(72, 85, 102); color: rgb(220, 224, 191); line-height: 1.2; font-size: 1.2em;
+}
+#secondary-content .projects a {
+	color: rgb(220, 224, 191);
+}
+#secondary-content .projects a.action {
+	color: rgb(255, 255, 255); font-size: 1.1em; font-style: italic;
+}
+#secondary-content .projects p.first {
+	font-size: 1.1em;
+}
+#secondary-content .projects ul {
+	list-style: none; padding-left: 0px; margin-top: 1em; margin-bottom: 0.5em; margin-left: 0px; border-top-color: rgb(135, 138, 90); border-top-width: 1px; border-top-style: solid;
+}
+#secondary-content .projects ul li {
+	list-style: none; padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 0px; margin-left: 0px; border-bottom-color: rgb(135, 138, 90); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#secondary-content .projects ul li a {
+	text-decoration: none;
+}
+#secondary-content .projects ul li a:hover {
+	text-decoration: underline;
+}
+#projects div.category {
+	margin: 1.5em 0px 0.5em; padding: 0.2em 0.3em; color: rgb(135, 138, 90); clear: both; font-size: 1.2em; background-color: rgb(220, 224, 191);
+}
+#projects div.category a {
+	padding-left: 1em; font-size: 0.6em; font-style: italic;
+}
+#projects .project {
+	padding-top: 2em; clear: both;
+}
+#projects .project h2 {
+	padding-top: 0px; margin-top: 0px;
+}
+#projects .project h2 em {
+	color: rgb(102, 102, 102); font-size: 0.7em; font-style: italic; font-weight: normal;
+}
+#projects .project .details {
+	width: 620px; text-align: left; float: right;
+}
+#projects .project .images {
+	width: 280px; padding-top: 1em; float: left;
+}
+#projects .project .images img {
+	border-width: 5px 5px 7px; border-style: solid; border-color: rgb(220, 224, 191); margin-bottom: 2em; display: block;
+}
+#secondary-content .team {
+	background: url("../images/textures/red_green_bark.jpg") repeat-y; padding: 20px; border: 10px solid rgb(72, 85, 102); color: rgb(220, 224, 191); line-height: 1.2; font-size: 1.2em;
+}
+#secondary-content .team a {
+	color: rgb(220, 224, 191);
+}
+#secondary-content .team a.action {
+	color: rgb(255, 255, 255); font-size: 1.1em; font-style: italic;
+}
+#secondary-content .team p.first {
+	font-size: 1.1em;
+}
+#secondary-content .team ul {
+	list-style: none; padding-left: 0px; margin-top: 1em; margin-bottom: 0.5em; margin-left: 0px; border-top-color: rgb(135, 138, 90); border-top-width: 1px; border-top-style: solid;
+}
+#secondary-content .team ul li {
+	list-style: none; padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 0px; margin-left: 0px; border-bottom-color: rgb(135, 138, 90); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#secondary-content .team ul li a {
+	text-decoration: none;
+}
+#secondary-content .team ul li a:hover {
+	text-decoration: underline;
+}
+div.bio {
+	
+}
+div.bio img.headshot {
+	border-width: 5px 5px 25px; border-style: solid; border-color: rgb(220, 224, 191); margin-top: 1em; float: left;
+}
+div.bio p {
+	margin-left: 200px;
+}
+img.group_photo {
+	border: 5px solid rgb(72, 85, 102);
+}
+#contact table.contact_info {
+	margin: 2em 0px;
+}
+#contact .contact_info td {
+	padding-bottom: 40px; padding-left: 20px;
+}
+#contact .contact_info th {
+	text-align: left; color: rgb(135, 138, 90); line-height: 2.2; font-style: italic; font-weight: normal; vertical-align: top;
+}
+#contact .contact_info .email td {
+	color: rgb(0, 0, 0); font-size: 2.2em;
+}
+#contact .contact_info .email td a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+#contact .contact_info .email td a:hover {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(72, 85, 102);
+}
+#contact .contact_info .phone td {
+	color: rgb(0, 0, 0); font-size: 2.2em;
+}
+#contact .contact_info .address td {
+	color: rgb(51, 51, 51); line-height: 1.2; font-size: 1.8em;
+}
+#contact #secondary-content ul.team {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#contact #secondary-content ul.team li {
+	margin: 0px; padding: 0.5em 0px; color: rgb(51, 51, 51); font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#contact #secondary-content ul.team li a {
+	color: rgb(51, 51, 51); font-style: italic; font-weight: normal;
+}
+#contact #secondary-content ul.team li ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#contact #secondary-content ul.team li ul li {
+	margin: 0px; padding: 0px 0px 0px 3em; border: currentColor; color: rgb(51, 51, 51); line-height: 1.3; font-size: 0.9em; font-weight: normal;
+}
+#contact #secondary-content ul.team li ul li a {
+	font-style: normal;
+}
